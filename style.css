@@ -1,0 +1,105 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    border: 0;
+}
+
+
+.heading {
+    font-size: 7vh;
+    font-weight: 500;
+    padding-top: 3vh;
+    padding-left: 5vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.inputs {
+    width: 100%;
+    padding-top: 1vh;
+    padding-left: 8vw;
+    font-size: 3vh;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace
+}
+
+input {
+    width: 26vh;
+    height: 3vh;
+    font-size: 2.2vh;
+    border-bottom: 0.1vh black solid;
+    background-color: rgb(238, 238, 238);
+    margin-bottom: 1vh;
+    ;
+}
+
+button {
+    width: 26vh;
+    height: 5vh;
+    margin-top: 1vh;
+    margin-left: 14vh;
+    font-size: 3vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-size: 5vh;
+    text-decoration: underline;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 3.5vh;
+}
+
+.tagpill {
+    padding: 1vh;
+    margin: 0vh 1vh;
+    margin-bottom: 1vh;
+    color: white;
+    display: flex;
+    background-color: black;
+    border: 1px black solid;
+    border-radius: 10px;
+    width: 90%;
+}
+
+h3 {
+    font-size: 4vh;
+    text-decoration: underline;
+}
+
+h4 {
+    margin-bottom: 1vh;
+    font-size: 2.5vh;
+}
+
+p {
+    font-size: 2.2vh;
+}
+
+#ContainmentUnit {
+    padding: 2vh 7%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#AlbumBasicInfo {
+    width: 30vh;
+    flex: auto;
+}
+
+#CoverArt {
+    width: 30%;
+    flex: auto;
+}
+
+#image {
+    padding-top: 2vh;
+    height: 23vw;
+    width: 23vw;
+}
+
+#Tracks {
+    margin-left: 2vw;
+}
